@@ -15,7 +15,7 @@ WORKDIR /app/
 
 VOLUME ["/app"]
 
-RUN echo "ok." >> ./index.php
+RUN echo "ok..." >> ./index.php
 
 
 
