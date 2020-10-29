@@ -20,6 +20,7 @@ RUN echo "ok..." >> ./index.php
 
 
 EXPOSE 8080
+EXPOSE 9000
 
 CMD ["php","-S","0.0.0.0:8080","./index.php"]
 
